@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://convo-zeta.vercel.app"],
+    origin: ["https://convo-zeta.vercel.app"],
     credentials: true,
   })
 );
